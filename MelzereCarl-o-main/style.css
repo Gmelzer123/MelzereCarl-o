@@ -1,0 +1,19 @@
+body {
+    background-color:cyan
+}
+
+h1{
+    text-align: center;
+} 
+
+p {
+   text-align: center;
+}   
+
+main{
+    background-color: yellowgreen;
+}
+
+    #banner {
+          width: 100%;
+    }
