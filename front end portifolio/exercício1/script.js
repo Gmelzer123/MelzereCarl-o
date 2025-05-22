@@ -18,3 +18,4 @@ if(parouimpar == 0){
 
 alert(resultado)
 
+//Desafio: informe na frase se o número é par ou impar
