@@ -1,13 +1,22 @@
 let mostraHTML = document.getElementById("mostraHTML")
-let text
-let OUTONO = ("ABRIL","MAIO","JUNHO")
-let VERAO = ("DEZEMBRO", "JANEIRO", "FEVEIRO", "MARCO")
-let INVERNO = ("OUTUBRO", "NOVEMBRO")
-let PRIMAVERA = ("OUTUBRO", "NOVEMBRO")
 
-function teste() {
-    let text = prompt("Digite um texto").toUpperCase();
+
+function cliques() {
+    let meses = prompt("Digite um texto").toUpperCase();
+    let estacao
+    let cor 
+
+    if(meses ==="DEZEMBRO" || meses === "JANEIRO" || meses === "FEVEIRO"){
+        estacao = "Verão"
+        cor = "#"
+    }else if(meses === "MARÇO" || meses === "ABRIL" || meses === "MAIO"){
+        estacao = "Outono"
+    }else if (meses === "JUNHO" || meses === "JULHO" || meses === "MAIO"){
+        estacao = "Intervalo"
+    }else if (meses === "SETEMBRO" || meses === "OUTUBRO" || meses === "NOVEMBRO"){
+        estacao = "Primavera"
+    }
     
-    console.log(text);
-}
+    mostraHTML.innerHTML = `<p>O mês ${meses} pertence a estação: ${estacao}</p>`
 
+}

@@ -1,0 +1,51 @@
+header {
+    text-align: center;
+    background-color: blue;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main {
+    background-color: aliceblue;
+    text-align:  center;
+    padding: 100px;
+    margin: auto;
+}
+
+h2{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li{
+    margin: 10px auto;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+}
+
+li:hover {
+    width: 33%
+}
+
+footer {
+    background-color: blue;
+    text-align: center;
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue(0, 0, 0);
+}
+
+p {
+    text-align: center;
+}
+
